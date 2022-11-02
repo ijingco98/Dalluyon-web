@@ -1,0 +1,46 @@
+
+.details {
+    height: 350px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #F0D6D7;
+    border-radius: 6px;
+    margin: 20px auto;
+    padding: 20px;
+    padding-top: 0%;
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.10);
+  }
+
+  .profile {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    width: 30%;
+    height: auto;
+    background-color:  #91C8CD;
+    border: 2px solid #8E7799;
+    border-radius: 100%;
+  }
+
+  .name{
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+    color: var(--primary);
+  }
+.details p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #555;
+  }
+
+.details span {
+    cursor: pointer;
+    background: rgb(252, 91, 91);
+    padding: 6px;
+    color: rgb(255, 255, 255);
+  }
+
+  
